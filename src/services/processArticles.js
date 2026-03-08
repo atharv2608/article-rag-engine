@@ -1,5 +1,5 @@
 import { getCollection } from "../db/chroma.js";
-import Article from "../models/article.js";
+import Article from "../models/Article.js";
 import { createEmbedding } from "../utils/createEmbedding.js";
 import { chunkText } from "../utils/chunkText.js";
 

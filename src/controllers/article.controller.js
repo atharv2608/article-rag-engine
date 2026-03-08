@@ -1,8 +1,5 @@
-import { getCollection } from "../db/chroma.js";
-import Article from "../models/article.js";
+import Article from "../models/Article.js";
 import { processArticle } from "../services/processArticles.js";
-import { chunkText } from "../utils/chunkText.js";
-import { createEmbedding } from "../utils/createEmbedding.js";
 
 export const addArticle = async (req, res) => {
   let newArticle;
